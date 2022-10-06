@@ -1,0 +1,46 @@
+﻿\input{latex-book-template/src/setup}
+
+\begin{document}
+
+\title{标题}
+\author{作者}
+\date{时间}
+\maketitle
+\thispagestyle{empty}
+\tableofcontents
+
+\mainmatter
+
+\part{编辑环境测试}
+
+\chapter{字体}
+
+default font/\textmd{std font}/\texttt{mono font}/\textbf{bold font}/\textit{italic font}/\textup{up font}
+
+默认字体/\textmd{标准字体}/\texttt{等宽}/\textbf{粗体}/\textit{斜体}/\textup{直立体}
+
+效果如图 \ref{fig:env_font} 所示.
+
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.7\textwidth]{assets/imgs/env_font.png}}
+    \caption{字体预览}
+    \label{fig:env_font}
+\end{figure}
+
+\chapter{代码测试}
+
+\begin{lstlisting}[style=verb]
+fn main() {
+    println!("hello rust");
+}
+\end{lstlisting}
+
+效果如图 \ref{fig:env_code} 所示.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.7\textwidth]{assets/imgs/env_code.png}}
+    \caption{代码预览}
+    \label{fig:env_code}
+\end{figure}
+
+\label{last_page_num}
+\end{document}
