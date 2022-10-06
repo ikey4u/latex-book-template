@@ -29,11 +29,10 @@ Latex 中文书籍模板, 已调教好中文编码问题, 可正确显示中文�
 
     - 中文字体
 
-        Source Han Serif SC: https://github.com/adobe-fonts/source-han-serif/releases
+        - Source Han Serif SC: https://github.com/adobe-fonts/source-han-serif/releases
 
-            下载 SourceHanSerif.ttc.zip 文件 (名字为 Static Super OTC) 即可
-
-        这个里面就只有一个文件.
+            下载 SourceHanSerif.ttc.zip 文件 (名字为 Static Super OTC), 解压后里面就只有一个文件,
+            安装即可.
 
 - 第三方库
 
