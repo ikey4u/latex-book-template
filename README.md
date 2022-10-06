@@ -42,24 +42,24 @@ Latex 中文书籍模板, 已调教好中文编码问题, 可正确显示中文�
 
 ## 使用
 
-    假设你的书籍根目录为 `your_book_root_directory`, 主文件为 `main.tex`,
-    只需将本仓库放到根目录即可, 目录组织类似如下
+假设你的书籍根目录为 `your_book_root_directory`, 主文件为 `main.tex`,
+只需将本仓库放到根目录即可, 目录组织类似如下
 
-        +-- your_book_root_directory
-            +-- latex-book-template/
-            +-- main.tex
+    +-- your_book_root_directory
+        +-- latex-book-template/
+        +-- main.tex
 
-    然后在 main.tex 中导入即可
+然后在 main.tex 中导入即可
 
-        \input{latex-book-template/src/setup}
+    \input{latex-book-template/src/setup}
 
-        \begin{document}
+    \begin{document}
 
-        \end{document}
+    \end{document}
 
-    要更新本仓库也很方便, 只需进入 `latex-book-template` 使用 git 拉取最新代码即可.
+要更新本仓库也很方便, 只需进入 `latex-book-template` 使用 git 拉取最新代码即可.
 
-    具体可以参考 `example/` 目录下的文件, 进入 `example/` 目录执行 `make` 即可生成 `main.pdf` 样例文件.
+具体可以参考 `example/` 目录下的文件, 进入 `example/` 目录执行 `make` 即可生成 `main.pdf` 样例文件.
 
 ## 已知问题
 
@@ -74,4 +74,4 @@ Latex 中文书籍模板, 已调教好中文编码问题, 可正确显示中文�
         mkdir -p ~/texmf/tex/latex/titlesec/
         wget http://mirrors.ctan.org/macros/latex/contrib/titlesec/titlesec.sty -O ~/texmf/tex/latex/titlesec/titlesec.sty
 
-    查看版本可以在编译的输出中定位 titlesec.sty 的位置, 然后打开该文件即可查看版本信息.
+    在编译的输出中定位 titlesec.sty 的位置, 然后打开该文件即可查看版本信息.
